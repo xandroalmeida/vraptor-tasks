@@ -56,6 +56,17 @@ public class CustomJSR303Validator implements BeanValidator {
 		return messages;
 	}
 
+	@Override
+	public List<Message> validate(Object bean, Class<?>... arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Message> validateProperties(Object bean, String... arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	/**
 	 * Create a personalized implementation for
 	 * {@link javax.validation.MessageInterpolator.Context}. This class is need

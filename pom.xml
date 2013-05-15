@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.prixma</groupId>
 	<artifactId>vraptor-tasks</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<name>vraptor-tasks</name>
 
 
@@ -26,7 +26,18 @@
 			</roles>
 			<timezone>-3</timezone>
 		</developer>
-	</developers>
+        <developer>
+            <id>xandroalmeida</id>
+            <name>Alexandro Dias de Almeida</name>
+            <email>xandroalmeida@gmail.com</email>
+            <organization>SonicIT</organization>
+            <organizationUrl>http://www.sonicit.com.br</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-3</timezone>
+        </developer>	
+    </developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -124,7 +135,7 @@
 		<dependency>
 			<groupId>br.com.caelum</groupId>
 			<artifactId>vraptor</artifactId>
-			<version>3.4.0</version>
+			<version>3.5.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
